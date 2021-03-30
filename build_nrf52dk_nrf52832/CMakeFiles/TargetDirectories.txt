@@ -117,6 +117,9 @@
 /home/johangarrido/samples/mpu6250_sample/build_nrf52dk_nrf52832/zephyr/drivers/i2c/CMakeFiles/rebuild_cache.dir
 /home/johangarrido/samples/mpu6250_sample/build_nrf52dk_nrf52832/zephyr/drivers/i2c/CMakeFiles/edit_cache.dir
 /home/johangarrido/samples/mpu6250_sample/build_nrf52dk_nrf52832/zephyr/drivers/i2c/CMakeFiles/drivers__i2c.dir
+/home/johangarrido/samples/mpu6250_sample/build_nrf52dk_nrf52832/zephyr/drivers/serial/CMakeFiles/rebuild_cache.dir
+/home/johangarrido/samples/mpu6250_sample/build_nrf52dk_nrf52832/zephyr/drivers/serial/CMakeFiles/edit_cache.dir
+/home/johangarrido/samples/mpu6250_sample/build_nrf52dk_nrf52832/zephyr/drivers/serial/CMakeFiles/drivers__serial.dir
 /home/johangarrido/samples/mpu6250_sample/build_nrf52dk_nrf52832/zephyr/drivers/timer/CMakeFiles/rebuild_cache.dir
 /home/johangarrido/samples/mpu6250_sample/build_nrf52dk_nrf52832/zephyr/drivers/timer/CMakeFiles/edit_cache.dir
 /home/johangarrido/samples/mpu6250_sample/build_nrf52dk_nrf52832/modules/nrf/CMakeFiles/rebuild_cache.dir

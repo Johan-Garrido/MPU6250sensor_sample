@@ -11,7 +11,8 @@
 #define ___cpu_t_current_OFFSET 0x8
 #define ___cpu_t_nested_OFFSET 0x0
 #define ___cpu_t_irq_stack_OFFSET 0x4
-#define ___kernel_t_ready_q_OFFSET 0x24
+#define ___kernel_t_idle_OFFSET 0x24
+#define ___kernel_t_ready_q_OFFSET 0x28
 #define ___ready_q_t_cache_OFFSET 0x0
 #define ___thread_base_t_user_options_OFFSET 0xc
 #define ___thread_base_t_thread_state_OFFSET 0xd

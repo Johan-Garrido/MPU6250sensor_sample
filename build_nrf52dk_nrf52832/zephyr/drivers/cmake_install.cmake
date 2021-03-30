@@ -40,6 +40,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/johangarrido/samples/mpu6250_sample/build_nrf52dk_nrf52832/zephyr/drivers/clock_control/cmake_install.cmake")
   include("/home/johangarrido/samples/mpu6250_sample/build_nrf52dk_nrf52832/zephyr/drivers/gpio/cmake_install.cmake")
   include("/home/johangarrido/samples/mpu6250_sample/build_nrf52dk_nrf52832/zephyr/drivers/i2c/cmake_install.cmake")
+  include("/home/johangarrido/samples/mpu6250_sample/build_nrf52dk_nrf52832/zephyr/drivers/serial/cmake_install.cmake")
   include("/home/johangarrido/samples/mpu6250_sample/build_nrf52dk_nrf52832/zephyr/drivers/timer/cmake_install.cmake")
 
 endif()

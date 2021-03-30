@@ -337,6 +337,25 @@ rule C_STATIC_LIBRARY_LINKER__drivers__i2c
 #############################################
 # Rule for compiling C files.
 
+rule C_COMPILER__drivers__serial
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ccache /opt/gnuarmemb/bin/arm-none-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C static library.
+
+rule C_STATIC_LIBRARY_LINKER__drivers__serial
+  command = $PRE_LINK && ccache /usr/bin/cmake -E remove $TARGET_FILE && ccache /opt/gnuarmemb/bin/arm-none-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && ccache /opt/gnuarmemb/bin/arm-none-eabi-ranlib $TARGET_FILE && $POST_BUILD
+  description = Linking C static library $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
 rule C_COMPILER__.2e.2e__nrf__lib__fatal_error
   depfile = $DEP_FILE
   deps = gcc

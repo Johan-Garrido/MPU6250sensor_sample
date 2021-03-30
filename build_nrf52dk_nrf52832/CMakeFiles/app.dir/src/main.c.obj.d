@@ -113,6 +113,7 @@ CMakeFiles/app.dir/src/main.c.obj: ../src/main.c \
  zephyr/include/generated/syscalls/kernel.h \
  /home/johangarrido/ncs/zephyr/lib/libc/minimal/include/stdio.h \
  /home/johangarrido/ncs/zephyr/lib/libc/minimal/include/bits/restrict.h \
+ /home/johangarrido/ncs/zephyr/lib/libc/minimal/include/stdlib.h \
  /home/johangarrido/ncs/zephyr/include/drivers/i2c.h \
  /home/johangarrido/ncs/zephyr/include/device.h \
  /home/johangarrido/ncs/zephyr/include/init.h \

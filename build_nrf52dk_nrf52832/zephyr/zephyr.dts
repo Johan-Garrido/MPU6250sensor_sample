@@ -27,6 +27,7 @@
 		sw1 = &button1;
 		sw2 = &button2;
 		sw3 = &button3;
+		mpusensor = &node;
 	};
 	soc {
 		#address-cells = < 0x1 >;
@@ -145,7 +146,7 @@
 			compatible = "nordic,nrf-twi";
 			sda-pin = < 0x1a >;
 			scl-pin = < 0x1b >;
-			mpu6050@68 {
+			node: mpu6050@68 {
 				compatible = "invensense,mpu6050";
 				reg = < 0x68 >;
 				status = "okay";

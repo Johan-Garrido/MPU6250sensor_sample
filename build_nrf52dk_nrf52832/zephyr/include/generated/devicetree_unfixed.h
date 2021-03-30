@@ -3653,7 +3653,9 @@
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_i2c_40003000_S_mpu6050_68_EXISTS 1
+#define DT_N_ALIAS_mpusensor           DT_N_S_soc_S_i2c_40003000_S_mpu6050_68
 #define DT_N_INST_0_invensense_mpu6050 DT_N_S_soc_S_i2c_40003000_S_mpu6050_68
+#define DT_N_NODELABEL_node            DT_N_S_soc_S_i2c_40003000_S_mpu6050_68
 
 /* Bus info (controller: '/soc/i2c@40003000', type: 'i2c') */
 #define DT_N_S_soc_S_i2c_40003000_S_mpu6050_68_BUS_i2c 1
